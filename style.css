@@ -1,0 +1,159 @@
+body{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+.menu-principal{
+background-color: rgb(255, 255, 255);
+height: 50px; 
+width: 100%;
+padding: 0px;
+margin: 0px;   
+}
+main{
+height: 0px;
+width:1250px;
+position: relative;
+}
+.logo{
+position:absolute;
+float: left;
+margin-left: 100px;
+height: 2px;
+}
+.menu{
+width: 50%;
+float:right;
+margin-top: 10px;
+margin-right: 5px;   
+}
+.menu ul li{
+margin-left: 50px;
+display: inline-block;
+float:left;
+padding: 0px;
+}
+@media (max-width:1120px){
+    .main{
+        width: 50px;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .menu-principal{
+        width: 70%;
+    }
+    .menu ul li {
+        margin-left: 10px;
+    }
+}
+.menu ul li a{
+color: rgb(58, 56, 56);
+text-decoration: none;
+}
+.laranja {
+width: 100%;
+height: 600px;
+background-image: url('laranjaazul.png');
+background-repeat: no-repeat;
+background-size: contain;
+}
+@media (max-width:1204px){
+    .laranja {
+        width:100%;
+        height: 500px;
+        
+    }
+}
+@media (max-width:415px){
+    .laranja {
+        width:100%;
+        height: 800px;
+        
+    }
+}
+.titulo{
+position: relative;
+color: white;
+font-size: 68px;
+top: 205px;
+margin-left:120px ;
+}
+@media (max-width:414){
+ .titulo{
+     
+ }
+}
+.sub-t{
+position: relative;
+margin-left:125px ;
+top: 235px;
+color: rgba(255, 255, 255, 0.849);
+}
+section{
+display: flex;
+height: 800px;  
+}
+.feed{    
+width: 100%;
+height: 50px;
+margin-top:0px;
+margin-left: 250px; 
+flex-wrap: nowrap;     
+}
+@media (max-width:415px){
+    .feed{
+        flex-direction: column;
+
+    }
+}
+.item{
+width: 230px;
+height:230px ;
+margin: 4px;
+}
+@media (max-width:415px){
+    .item{
+        flex-direction: column;
+
+    }
+}
+footer{
+height: 100%; 
+width: 100%;
+background-color: rgb(235, 231, 231);
+bottom: 0px;
+align-items: flex-end;
+}
+@media a(max-width:1025){
+    footer{
+        bottom: 0px;
+    }
+}
+.rodape{
+display: flex;
+margin-left: 10%;    
+}
+.rodape h1 {
+margin-left: 30%;
+}
+.redes-socias{
+width: 30%;
+justify-content: flex-end;
+margin-left: 6%;
+align-items: flex-end;
+}
+.redes-socias ul li{
+margin-left: 5px;
+display: inline-block;
+justify-content: flex-end;
+}
+.paragrafo2{
+width: 38%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+}
+.redes-socias ul li img{
+width:25px ;
+height: 25px;
+}
